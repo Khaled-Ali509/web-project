@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Project </title>
+    <style>
+        .hidden {
+            display: none;
+        }
+        #counter{
+            text-align: center;
+        }
+        body{
+            margin: "50px";
+            padding: "100px";
+            text-align: center;
+        }
+        h1{
+            border: solid 1px red;
+            margin-bottom: 100px;
+            padding-bottom: 10px;
+        }
+        #q{
+            font-size: xx-large;
+            margin-bottom:50px ;
+        }
+        #prev,#counter,#sub,#next
+        {
+            font-size: large;
+        }
+    </style>
+</head>
+<body>
+    <h1> online quize </h1>
+
+        
+        <div id="q">
+        </div>
+            <button id="prev"> previous </button>
+            <input type="text" id="counter" disabled value="1" >
+            <button id="next"> next </button>
+            <br>
+            <br>
+            <br>
+            <input type="submit" id="sub" value="sumbit" >
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</body>
+</html>
